@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package poo2;
+package poo_2;
 
 /**
  *
@@ -86,12 +86,8 @@ public class Empleado {
     
     
     public void mostrarDatos(){
-        System.out.println("Nombre: "+ this.Nombre+ "CUIT: "+ this.CUIT+ "Genero: "+ this.genero+ "Direccion: "+this.direccion+
-         "Telefono: " +this.telefono+"Cantidad hijos"+this.cantHijos+"Sueldo"+this.sueldo.emitirDetalle());
-    
-    };
- 
+        System.out.println("Nombre: "+ Nombre+ "CUIT: "+ CUIT+ "Genero: "+ genero+ "Direccion: "+direccion+
+         "Telefono: " +telefono+"Cantidad hijos"+cantHijos);
+        this.sueldo.emitirDetalle(); 
+    }
 }
-
-
-
